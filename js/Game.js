@@ -26,10 +26,14 @@ class Game {
       form = new Form()
       form.display();
     }
-    car1 = createSprite(100, 200);
-    car2 = createSprite(300, 200);
-    car3 = createSprite(500, 200);
-    car4 = createSprite(700, 200);
+    car1 = createSprite(390, 200);
+    car1.addImage("car1_Img", car1_Img);
+    car2 = createSprite(590, 200);
+    car2.addImage('car2_Img', car2_Img);
+    car3 = createSprite(790, 200);
+    car3.addImage('car3_Img', car3_Img);
+    car4 = createSprite(990, 200);
+    car4.addImage('car4_Img', car4_Img);
     cars = [car1, car2, car3, car4];
   }
 
@@ -38,7 +42,8 @@ class Game {
     Player.getPlayerInfo();
 
     if (allPlayers !== undefined) {
-      var display_position = 130;
+      background(rgb(198, 135, 103));
+      image(trackImg, 0, -displayHeight * 4, displayWidth, displayHeight * 5);
       let index = 0,
         x = 0,
         y = 0;
@@ -51,21 +56,15 @@ class Game {
         cars[index - 1].y = y;
 
         if (index == player.index) {
-          camera.position.x = cars[index-1].x;
+          camera.position.x = cars[index - 1].x;
           camera.position.y = cars[index - 1].y;
           cars[index - 1].shapeColor = "Red";
           if (keyIsDown(LEFT_ARROW)) {
             cars[index - 1].x -= 10;
-          }
-          else if(keyIsDown(RIGHT_ARROW)){
-            cars[index-1].x += 10;
+          } else if (keyIsDown(RIGHT_ARROW)) {
+            cars[index - 1].x += 10;
           }
         }
-        
-
-        // display_position += 20;
-        // textSize(15);
-        // text(allPlayers[plr].name + ": " + allPlayers[plr].distance, 120, display_position)
       }
     }
 
@@ -73,8 +72,23 @@ class Game {
       player.distance += 50
       player.update();
     }
-
+    if(player.distance>3700)
+    gameState = 2;
 
     drawSprites();
+  }
+
+  end(){
+    let index;
+    console.log("Game Finished");
+    // for(let car of cars){
+    //   if(car.y < -2932)
+    //   index = car
+    // }
+    for(let pl in allPlayers){
+      if(allPlayers[pl].distance>3700)
+      console.log(allPlayers[pl].name + " Won !!")
+    }
+    noLoop();
   }
 }
