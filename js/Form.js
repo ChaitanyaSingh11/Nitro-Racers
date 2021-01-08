@@ -21,7 +21,13 @@ class Form {
     this.reset.mousePressed(()=>{
       player.updateCount(0);
       game.update(0);
-    })
+      Player.updateCarsAtEnd(0);
+    });
+    this.reset.size(70,70);
+    this.reset.style('border-radius:50%');
+    this.reset.style('background:Red');
+    this.reset.style('color:#ffffff');
+    this.reset.style('font-size:22px');
 
     this.input.position(displayWidth / 2 - 40, displayHeight / 2 - 80);
     this.button.position(displayWidth / 2 + 30, displayHeight / 2);
@@ -29,6 +35,7 @@ class Form {
     this.button.mousePressed(() => {
       this.input.hide();
       this.button.hide();
+      title.hide();
       player.name = this.input.value();
       playerCount += 1;
       player.index = playerCount;

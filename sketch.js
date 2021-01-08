@@ -13,6 +13,8 @@ let car1, car2, car3, car4;
 // images' variables
 let car1_Img, car2_Img, car3_Img, car4_Img;
 let trackImg;
+// logo
+let logo;
 
 function preload() {
   car1_Img = loadImage("images/car1.png");
@@ -20,6 +22,7 @@ function preload() {
   car3_Img = loadImage("images/car3.png");
   car4_Img = loadImage("images/car4.png");
   trackImg = loadImage("images/track.jpg");
+  logo = loadImage("images/logo.png");
 }
 
 function setup() {
@@ -38,6 +41,7 @@ function draw() {
   if (gameState === 1) {
     clear();
     game.play();
+    
   }
 
   if(gameState == 2)
