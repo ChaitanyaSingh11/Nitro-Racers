@@ -13,6 +13,8 @@ let car1, car2, car3, car4;
 // images' variables
 let car1_Img, car2_Img, car3_Img, car4_Img;
 let trackImg;
+let trophy, leaderboard;
+let end;
 // logo
 let logo;
 
@@ -23,6 +25,10 @@ function preload() {
   car4_Img = loadImage("images/car4.png");
   trackImg = loadImage("images/track.jpg");
   logo = loadImage("images/logo.png");
+  bg = loadImage('images/bg.png');
+  trophy = loadImage('images/trophy.png');
+  leaderboard = loadImage('images/leaderboard.jpg');
+  end = loadImage('images/endbg.png');
 }
 
 function setup() {
@@ -33,17 +39,15 @@ function setup() {
   game.start();
 }
 
-
 function draw() {
+  background(bg);
   if (playerCount === 4) {
     game.update(1);
   }
   if (gameState === 1) {
     clear();
     game.play();
-    
   }
-
-  if(gameState == 2)
+  if (gameState == 2)
     game.end();
 }
