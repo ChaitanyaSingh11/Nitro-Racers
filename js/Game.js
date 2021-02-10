@@ -88,6 +88,7 @@ class Game {
 
   end() {
     background(end);
+    let trackLength = 0;
     console.log("Game Finished " + displayHeight);
     // different length of track according to displayHeight
     if (displayHeight == 720)
