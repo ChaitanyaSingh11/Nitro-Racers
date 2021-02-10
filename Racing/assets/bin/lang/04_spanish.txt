@@ -1,0 +1,42 @@
+Clasificaciones
+Logros
+1 Jugador
+2 Jugador
+Opciones
+Noticia
+Visítenos En Línea
+Más
+Juegos
+
+Elige Tu Raza
+Atrás
+Reproducir/Próxima Carrera
+Reproducir/Raza Azar
+
+Elige Tu Coche
+Velocidad
+Acelerar
+Llantas
+
+Tiempo
+Mejor Tiempo
+Mejor Nuevo Tiempo
+Reintentar
+Próximo
+Finalizar 3rd/O Una Mayor
+Tarifa
+Comprar
+
+Jugar
+Jugador 1
+Jugador 2
+Controles
+En Pausa
+Reanudar
+Azar
+
+Ganaste
+Usted Pierde
+Restaurar/Compras
+Esperando Para/Reproductor Otros
+

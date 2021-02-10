@@ -1,0 +1,20 @@
+[TILES]
+width			=	32
+height			=	32
+
+[TEXTURES]
+00				=	00_invisible.png
+00_w			=	256
+00_h			=	256
+01				=	01_1555.png
+02				=	02_8888.png
+03				=	03_8888.png
+04				=	04_1555.PnG
+05				=	05_8888.png
+06				=	06_8888.png
+
+
+[SPECIAL_TEXTURES]
+fliprot		=	fliprot.png
+
+

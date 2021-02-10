@@ -88,10 +88,14 @@ class Game {
 
   end() {
     background(end);
-    console.log("Game Finished");
-    // 3500 for 14 inches Laptop screen
+    console.log("Game Finished " + displayHeight);
+    // different length of track according to displayHeight
+    if (displayHeight == 720)
+      trackLength = 3500;
+    else
+      trackLength = 3700;
     for (let pl in allPlayers) {
-      if (allPlayers[pl].distance > 3700 && player.rank == 1)
+      if (allPlayers[pl].distance > trackLength && player.rank == 1)
         console.log(allPlayers[pl].name + " Won !!")
     }
     console.log("Rank : " + player.rank);

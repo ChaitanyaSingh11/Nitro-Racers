@@ -1,0 +1,61 @@
+[ATTRIBUTE_1]
+name	=	Surface
+mask	=	000000FF
+0		=	0
+1		=	Road
+2		=	Oil
+3		=	Curb
+4		=	Grass
+5		=	Dirt
+6		=	Sand
+7		=	Gravel (under road)
+
+
+
+[ATTRIBUTE_2]
+name	=	Collect
+mask	=	0000FF00
+0		=	0
+1		=	Solid
+2		=	Bollard
+3		=	PU Speed
+4		=	PU Acceleration
+5		=	PU Grip
+6		=	PU Boost
+7		=	Ramp
+
+
+
+
+
+
+
+[ATTRIBUTE_5]
+name	=	Special
+mask	=	00FF0000
+1		=	Start 1
+2		=	Start 2
+3		=	Start 3
+4		=	Start 4
+5		=	Start 5
+6		=	Start 6
+7		=	Start 7
+8		=	Start 8
+
+
+
+
+
+
+[ATTRIBUTE_SYS_29]
+name	=	SYS_NO_FLIPROT
+mask	=	20000000
+
+[ATTRIBUTE_SYS_30]
+name	=	SYS_CAN_VANISH
+mask	=	40000000
+
+[ATTRIBUTE_SYS_31]
+name	=	SYS_SOLID_TILE
+mask	=	80000000
+

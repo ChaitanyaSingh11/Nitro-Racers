@@ -1,0 +1,42 @@
+Leaderboards
+Achievements
+1 Player
+2 Player
+Options
+News
+Visit Us Online
+More
+Games
+
+Choose Your Race
+Back
+Play/Next Race
+Play/Random Race
+
+Choose Your Car
+Speed
+Accelerate
+Tires
+
+Time
+Best Time
+New Best Time
+Retry
+Next
+Finish 3rd/Or Better
+Rate
+Buy
+
+Play
+Player 1
+Player 2
+Controls
+Paused
+Resume
+Random
+
+You Won
+You Lost
+Restore/Purchases
+Waiting For/Other Player
+

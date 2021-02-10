@@ -1,0 +1,42 @@
+Classements
+Succès
+1 Joueur
+2 Joueurs
+Options
+Infos
+Visitez-nous
+Plus
+Jeux
+
+Choisissez Course
+Arrière
+Jouer/Prochaine Course
+Jouer/Course au Hasard
+
+Choisissez Voiture
+Vitesse
+Accélérer
+Pneus
+
+Temps
+Meilleur Temps
+Nouveau Meilleur Temps
+Réessayer
+Prochain
+Terminer 3rd/Or Mieux
+Taux
+Acheter
+
+Jouer
+Joueur 1
+Joueur 2
+Contrôles
+En Pause
+Jouer
+Aléatoires
+
+Vous Avez Gagné
+Vous Avez Perdu
+Restaurer/Achats
+Attente Pour/Autres Joueur
+
